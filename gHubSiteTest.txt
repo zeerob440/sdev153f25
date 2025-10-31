@@ -6,7 +6,7 @@
   </head>
   <body>
     <b
-      ><a href="ch2/index.html">Chapter 2</a> <br />
+      <a href="ch2/index.html">Chapter 2</a> <br />
       <a href="ch3/index.html">Chapter 3</a> <br />
       <a href="ch4/index.html">Chapter 4</a> <br />
       <a href="ch5/index.html">Chapter 5</a> <br />
