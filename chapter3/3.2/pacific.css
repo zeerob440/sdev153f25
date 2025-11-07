@@ -6,18 +6,19 @@ header { background-color: #002171;
        color: #FFFFFF;
        font-family: Arial, Verdana, sans-serif; }       
  h1 { background-color: #002171; 
-     color: #E2FFFF; 
+     color: #FFFFFF; 
 	 line-height: 200%;
 	 font-family: Georgia, "Times New Roman", serif;
 	 text-indent: 1em;
 	 text-shadow: 3px 3px 5px #000000; }
 h2 { background-color: #B0E6E6; 
-     color: #237B7B; 
+     color: #1976D2; 
 	 font-family: Georgia, "Times New Roman", serif;
 	 text-align: center;  }
 nav { font-weight: bold;
       font-size: 1.25em;
-	  word-spacing: 1em; }
+	  word-spacing: 1em;
+         background-color: #BBDEFB; }
 p { font-size: .90em;
 	text-indent: 3em; }
 ul { font-weight: bold; } 
