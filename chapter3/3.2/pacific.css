@@ -28,6 +28,7 @@ dl.resort dd {
   color: #000000;
 }      
 footer { color: #333333;
+       text-align: center;
          font-size: .75em;
          font-style: italic; }
 .company { font-weight: bold;
