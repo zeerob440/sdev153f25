@@ -23,6 +23,8 @@ p { font-size: .90em;
 	text-indent: 3em; }
 ul { font-weight: bold; } 
 .feature { color: #C70000; }
+dl.resort {color: #1976D2;
+       font-size: 1.2em;}
 footer { color: #333333;
          font-size: .75em;
          font-style: italic; }
