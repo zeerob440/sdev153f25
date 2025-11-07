@@ -21,11 +21,12 @@ p { font-size: .90em;
 	text-indent: 3em; }
 ul { font-weight: bold; } 
 .feature { color: #C70000; }
-dl.resort {color: #002171;
+.resort {color: #002171;
        font-size: 1.2em;}
 dl.resort dd {
   color: #000000;
-}      
+}
+dl.resort dt{color: #002171}     
 footer { color: #333333;
        text-align: center;
          font-size: .75em;
