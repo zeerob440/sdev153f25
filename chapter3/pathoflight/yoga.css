@@ -15,13 +15,12 @@ header {
     text-align: center;
 }
 h1 {
-background-color: #80cbc4;
 line-height: 200%;
 text-align: center;
 }
 
 h2 {
-    color: 40407a;
+    color: #40407a;
     font-weight: bold;
 }
 
@@ -30,7 +29,11 @@ nav {
     text-align: center;
 }
 dt {
-    font-weight: bold; 
+    font-weight: bold;
+}
+.studio {
+    font-style: italic;
+    
 }
 footer {
     margin-right: auto;
