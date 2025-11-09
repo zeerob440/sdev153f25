@@ -9,7 +9,6 @@ h1 {
 background-color: #80cbc4;
 color: #40407a;
 font-weight: bold;
-width: 80%;
 margin-right: auto;
 margin-left: auto;
 text-align: center;
@@ -18,21 +17,17 @@ text-align: center;
 h2 {
     color: 40407a;
     font-weight: bold;
-    width: 80%;
 }
 
 nav {
     font-weight: bold;
-    width: 80%;
     margin-right: auto;
     margin-left: auto;
 }
 dt {
-    font-weight: bold;
-    width: 80%;   
+    font-weight: bold; 
 }
 footer {
-  width: 80%;
     margin-right: auto;
     margin-left: auto; 
     background-color: #80cbc4;
