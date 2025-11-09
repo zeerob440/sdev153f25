@@ -28,12 +28,16 @@ nav {
     font-weight: bold;
     text-align: center;
 }
+nav a {
+    text-decoration: none;
+    color: #40407a
+}
 dt {
     font-weight: bold;
 }
 .studio {
     font-style: italic;
-    
+
 }
 footer {
     margin-right: auto;
