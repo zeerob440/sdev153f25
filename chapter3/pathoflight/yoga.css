@@ -12,6 +12,7 @@ font-weight: bold;
 width: 80%;
 margin-right: auto;
 margin-left: auto;
+text-align: center;
 }
 
 h2 {
@@ -32,5 +33,6 @@ footer {
   width: 80%;
     margin-right: auto;
     margin-left: auto; 
-    background-color: #80cbc4; 
+    background-color: #80cbc4;
+    text-align: center; 
 }
