@@ -2,5 +2,20 @@
     width: 80%;
     margin-right: auto;
     margin-left: auto;
+    color: #40407a;
 }
 
+h1 {
+background-color: #80cbc4;
+color: #40407a;
+font-weight: bold;
+}
+
+h2 {
+    color: 40407a;
+    font-weight: bold;
+}
+
+nav {
+    font-weight: bold;
+}
