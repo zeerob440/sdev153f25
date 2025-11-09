@@ -4,13 +4,19 @@
     margin-left: auto;
     color: #40407a;
 }
+body {
+    background-color: #F5F5F5;
+    color:#40407a;
+    font-family: Veranda, Arial, sans-serif;
+}
 
+header {
+    background-color: #80CBC4;
+    text-align: center;
+}
 h1 {
 background-color: #80cbc4;
-color: #40407a;
-font-weight: bold;
-margin-right: auto;
-margin-left: auto;
+line-height: 200%;
 text-align: center;
 }
 
@@ -21,8 +27,7 @@ h2 {
 
 nav {
     font-weight: bold;
-    margin-right: auto;
-    margin-left: auto;
+    text-align: center;
 }
 dt {
     font-weight: bold; 
