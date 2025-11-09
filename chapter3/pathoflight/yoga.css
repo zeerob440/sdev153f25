@@ -18,7 +18,15 @@ h2 {
 
 nav {
     font-weight: bold;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
 }
 dt {
     font-weight: bold;   
+}
+footer {
+  width: 80%;
+    margin-right: auto;
+    margin-left: auto;  
 }
