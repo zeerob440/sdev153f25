@@ -18,6 +18,7 @@ text-align: center;
 h2 {
     color: 40407a;
     font-weight: bold;
+    width: 80%;
 }
 
 nav {
@@ -27,7 +28,8 @@ nav {
     margin-left: auto;
 }
 dt {
-    font-weight: bold;   
+    font-weight: bold;
+    width: 80%;   
 }
 footer {
   width: 80%;
