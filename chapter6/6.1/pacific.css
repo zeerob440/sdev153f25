@@ -123,3 +123,9 @@ header a:visited {
 header a:hover {
        color: #90C7E3;
 }
+section {
+       float: left;
+       width: 33%;
+       padding-left: 2em;
+       padding-right: 2em;  
+}
