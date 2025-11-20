@@ -10,11 +10,17 @@ body { background-color: #EAEAEA;
        
 header { background-color: #002171; 
        color: #FFFFFF;
-       font-family: Arial, Verdana, sans-serif; }       
+       height: 120px;
+       font-family: Arial, Verdana, sans-serif; 
+}       
  h1 {  color: #FFFFFF; 
 	font-family: Georgia, "Times New Roman", serif;
 	text-indent: .5em;
-	text-shadow: 3px 3px 5px #000000; }
+	text-shadow: 3px 3px 5px #000000;
+       font-size: 3em;
+       letter-spacing: 0.25em;
+ }
+
 h2 { color: #1976D2; 
 	 font-family: Georgia, "Times New Roman", serif}
 nav {  
