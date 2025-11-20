@@ -1,3 +1,7 @@
+* {
+       box-sizing: border-box;
+}
+
 
 body { background-color: #90C7E3; 
        color: #666666;
@@ -43,7 +47,7 @@ footer { color: #333333;
            min-width: 960px;
            max-width: 2048px;
            box-shadow: 0 0 20px #000000;
-        }
+           background-image: linear-gradient(#FFFFFF, #90C7E3) }
 
 #homehero {
        height:300px;
