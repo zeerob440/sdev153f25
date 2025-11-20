@@ -115,3 +115,11 @@ main {
        margin-left: 170px;
        overflow: auto;
 }
+header a:link,
+header a:visited {
+       text-decoration: none;
+       color: #FFFFFF;
+}
+header a:hover {
+       color: #90C7E3;
+}
