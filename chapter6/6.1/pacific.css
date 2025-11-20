@@ -2,7 +2,6 @@
        box-sizing: border-box;
 }
 
-
 body { background-color: #EAEAEA; 
        color: #666666;
        font-family: Arial, Verdana, sans-serif;
@@ -106,4 +105,13 @@ nav a:hover {
 footer {
        background-color: #FFFFFF;
        margin-left: 170px;
+}
+nav ul {
+       list-style-type: none;
+       padding-left: 1em;
+}
+main {
+       background-color: #FFFFFF;
+       margin-left: 170px;
+       overflow: auto;
 }
