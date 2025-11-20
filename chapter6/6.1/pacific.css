@@ -25,9 +25,12 @@ h2 { color: #1976D2;
 	 font-family: Georgia, "Times New Roman", serif}
 nav {  
        font-weight: bold;
-       font-size: 1.25em;
+       font-size: 1.2em;
 	word-spacing: 1em;
-       padding: .5em .5em .5em;
+       padding: 0;
+       float: left;
+       width: 160px;
+       position: fixed;
 }
 p { font-size: .90em;
 	text-indent: 3em; }
@@ -80,4 +83,14 @@ main {
 }
 nav a {
        text-decoration: none;
+}
+
+nav a:link {
+       color: #5C7FA3;       
+}
+nav a:visited {
+       color: #344873;
+}
+nav a:hover {
+       color: #A52A2A;
 }
