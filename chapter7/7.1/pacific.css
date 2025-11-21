@@ -165,3 +165,12 @@ nav li {
        }
 }
 
+body {
+       background-color: hotpink !important;   /* <-- If phone does NOT turn pink, it's using cached CSS */
+}
+
+@media only screen and (max-width: 600px) {
+       nav li {
+              background: yellow !important;   /* <-- If phone nav li does NOT turn yellow, phone is NOT in mobile width */
+       }
+}
