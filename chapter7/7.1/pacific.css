@@ -26,7 +26,6 @@ nav {
 	word-spacing: 1em;
        text-align: center;
        background-color: white;
-      
 }
 p { font-size: .90em;
 	text-indent: 3em; }
@@ -111,8 +110,8 @@ nav ul {
 main {
        padding-top: 0;
        padding-bottom: 0;
-       padding-left: 2em;
-       padding-right: 2em;
+       padding-left: .5em;
+       padding-right: .5em;
        display: block;
        
 }
@@ -131,10 +130,10 @@ section {
 nav li {
        padding-bottom: .5em;
        padding-top: .5em;
-       padding-left: .5em;
-       padding-right: .5em;
+       padding-left: .1em;
+       padding-right: .1em;
        width: 100%;
-       border-bottom: solid;
+       border-bottom: solid, 1px;
 }
 #mobile {
        display: inline;
