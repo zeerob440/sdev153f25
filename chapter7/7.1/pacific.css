@@ -13,13 +13,16 @@ header { background-color: #002171;
        padding: 1em;
        font-family: Arial, Verdana, sans-serif; 
 }       
- h1 {  color: #FFFFFF; 
+ h1 {  color: #FFFFFF;
+       font-size: 1.5em;
+       text-align: center; 
        font-size: 1.5em;
        text-align: center;
  }
 
 h2 { color: #1976D2; 
-	 font-family: Georgia, "Times New Roman", serif}
+     font-family: Georgia, "Times New Roman", serif;
+}
 nav {  
        font-weight: bold;
        font-size: 1.2em;
@@ -46,9 +49,9 @@ footer { color: #333333;
 .company { font-weight: bold;
            font-family: Georgia, "Times New Roman", serif;
             font-size: 1.25em; }
+
 #wrapper { margin-left: auto;
            margin-right: auto;
-           min-width: 960px;
            max-width: 2048px;
 }
 #homehero {
@@ -98,14 +101,15 @@ nav a:hover {
 }
 footer {
        background-color: #FFFFFF;
-       margin-left: 170px;
+       padding: 1em;
+       font-style: italic;
+       font-size: .75em;
+       text-align: center;
 }
 nav ul {
        list-style-type: none;
-       padding-left: 0;
-       flex-direction: column;
        margin: 0;
-       text-decoration: none;
+       padding: 0;
 
 }
 main {
@@ -134,7 +138,8 @@ nav li {
        padding-left: .1em;
        padding-right: .1em;
        width: 100%;
-       border-bottom: solid, 1px;
+       border-bottom: solid 1px;
+
 }
 #mobile {
        display: inline;
@@ -146,9 +151,17 @@ nav li {
 
 @media only screen and (min-width: 600px) {
        #mobile {
-              display: inline;
-       }
-       #desktop {
               display: none;
        }
+       #desktop {
+              display: inline;
+
+       }
+       nav li {
+              display: inline;
+              width: auto;
+              border-bottom: none;
+              padding: .5em 1em;
+       }
 }
+
