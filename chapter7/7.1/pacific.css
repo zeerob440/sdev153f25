@@ -2,7 +2,7 @@
        box-sizing: border-box;
 }
 
-body { background-color:linear-gradient(#90C7E3, white); 
+body { background:linear-gradient(#90C7E3, white); 
        color: #666666;
        font-family: Arial, Verdana, sans-serif;
        margin: 0;
@@ -89,6 +89,7 @@ main {
        background-color:white;
        max-width: 960px;
        padding: 2em;
+       margin: 0 auto;
 }
 nav a {
        text-decoration: none;
