@@ -41,7 +41,8 @@ footer { color: #333333;
        text-align: center;
        font-size: .75em;
        font-style: italic;
-       padding: 1em; }
+       padding: 1em; 
+}
 .company { font-weight: bold;
            font-family: Georgia, "Times New Roman", serif;
             font-size: 1.25em; }
@@ -141,4 +142,13 @@ nav li {
 }
 #desktop {
        display: none;
+}
+
+@media only screen and (min-width: 600px) {
+       #mobile {
+              display: inline;
+       }
+       #desktop {
+              display: none;
+       }
 }
