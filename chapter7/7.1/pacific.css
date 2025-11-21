@@ -15,7 +15,8 @@ header { background-color: #002171;
 }       
  h1 {  color: #FFFFFF;
        font-size: 1.5em;
-       text-align: center; 
+       text-align: center;
+       font-family: Georgia, "Times New Roman", serif;
        font-size: 1.5em;
        text-align: center;
  }
