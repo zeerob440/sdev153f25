@@ -137,7 +137,7 @@ section {
        padding-left: .5em;
        padding-right: .5em;
        width: 33%;
-       display: inline-block;  
+       float: left; 
 }
 nav li {
        padding-bottom: .5em;
