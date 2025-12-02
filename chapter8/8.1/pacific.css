@@ -136,7 +136,7 @@ header a:hover {
 section {
        padding-left: .5em;
        padding-right: .5em;
-       display: block;  
+       width: 33%;  
 }
 nav li {
        padding-bottom: .5em;
