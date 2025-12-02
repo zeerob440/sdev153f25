@@ -196,11 +196,7 @@ td {
 tr:nth-of-type(even) {
        background-color: #DFEDF8;
 }
-main::after {
-    content: "";
-    display: table;
-    clear: both;
-}
+
 
 
 
