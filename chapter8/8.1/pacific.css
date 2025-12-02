@@ -170,4 +170,12 @@ nav li {
        }
 }
 
+table {
+       margin: 0 auto;
+       border: solid 1px #3399CC;
+       width: 90%; 
+       border-collapse: collapse;
+       
+}
+
        
