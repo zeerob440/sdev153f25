@@ -183,6 +183,8 @@ nav li {
        }
        .reshero {
               background-size: 100% 100%;
+              background-image: url("ocean.jpg");
+              background-repeat: no-repeat;
        }
 }
 
