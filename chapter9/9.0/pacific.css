@@ -197,7 +197,19 @@ tr:nth-of-type(even) {
        background-color: #DFEDF8;
 }
 
+form { display: flex;
+         flex-direction: column;
+         padding-left: 1em; width: 80%; 
+}
 
+textarea, input {
+       margin-bottom: .5em;
+}
 
-
+.reshero {
+       background-image: url("ocean.jpg");
+       background-size: 200% 100%;
+       background-repeat: no-repeat;
+       height: 300px;
+}
        
