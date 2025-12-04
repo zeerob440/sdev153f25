@@ -181,7 +181,7 @@ nav li {
               grid-column: 2;
               width: 9em;
        }
-       .reshero {
+       #reshero {
               background-size: 100% 100%;
               background-image: url("ocean.jpg");
               background-repeat: no-repeat;
@@ -223,7 +223,7 @@ textarea, input {
        margin-bottom: .5em;
 }
 
-.reshero {
+#reshero {
        background-image: url("ocean.jpg");
        background-size: 200% 100%;
        background-repeat: no-repeat;
