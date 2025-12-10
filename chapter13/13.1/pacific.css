@@ -1,0 +1,253 @@
+* {
+       box-sizing: border-box;
+}
+
+body { background:linear-gradient(#90C7E3, white); 
+       color: #666666;
+       font-family: Arial, Verdana, sans-serif;
+       margin: 0;
+}
+       
+header { background-color: #002171; 
+       color: #FFFFFF;
+       padding: 1em;
+       font-family: Arial, Verdana, sans-serif; 
+}       
+ h1 {  color: #FFFFFF;
+       font-size: 1.5em;
+       text-align: center;
+       font-family: Georgia, "Times New Roman", serif;
+       font-size: 1.5em;
+       text-align: center;
+ }
+
+h2 { color: #1976D2; 
+     font-family: Georgia, "Times New Roman", serif;
+}
+nav {  
+       font-weight: bold;
+       font-size: 1.2em;
+	word-spacing: 1em;
+       text-align: center;
+       background-color: white;
+}
+p { font-size: .90em;
+	text-indent: 3em; }
+ul { font-weight: bold; } 
+.feature { color: #C70000; }
+.resort {color: #002171;
+       font-size: 1.2em;}
+dl.resort dd {
+  color: #000000;
+}
+dl.resort dt{color: #002171}     
+footer { color: #333333;
+       text-align: center;
+       font-size: .75em;
+       font-style: italic;
+       padding: 1em; 
+}
+.company { font-weight: bold;
+           font-family: Georgia, "Times New Roman", serif;
+            font-size: 1.25em; }
+
+#wrapper { margin-left: auto;
+           margin-right: auto;
+           max-width: 2048px;
+}
+#homehero {
+       height:300px;
+       background-image: url("coast.jpg");
+       background-size: 200% 100%;
+       background-repeat: no-repeat;
+       
+}
+
+#trailhero {
+       height:300px;
+       background-image: url("trail.jpg");
+       background-size: 200% 100%;
+       background-repeat: no-repeat;
+      
+}
+#yurthero {
+       height:300px;
+       background-image: url("yurt.jpg");
+       background-size: 200% 100%;
+       background-repeat: no-repeat;
+       
+}
+#shophero {
+       height:300px;
+       background-image: url("psunset.jpg");
+       background-size: 100% 100%;
+       background-repeat: no-repeat;
+}
+#shop {
+       margin: 1em;
+       background-color: #F4F4F4;
+}
+
+.shop img {
+       float: right;
+       padding: 1em;
+}
+h3 {
+       font-family: Georgia, serif;
+       color: #002171;
+}
+
+main {
+       padding-left: 2em;
+       padding-right: 2em;
+       display: block;
+       background-color:white;
+       max-width: 960px;
+       padding: 2em;
+       margin: 0 auto;
+}
+nav a {
+       text-decoration: none;
+}
+
+nav a:link {
+       color: #5C7FA3;       
+}
+nav a:visited {
+       color: #344873;
+}
+nav a:hover {
+       color: #A52A2A;
+}
+footer {
+       background-color: #FFFFFF;
+       padding: 1em;
+       font-style: italic;
+       font-size: .75em;
+       text-align: center;
+       clear: both;
+}
+nav ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+
+}
+main {
+       padding-top: 0;
+       padding-bottom: 0;
+       padding-left: .5em;
+       padding-right: .5em;
+       display: block;
+       
+}
+header a:link,
+header a:visited {
+       text-decoration: none;
+       color: #FFFFFF;
+}
+header a:hover {
+       color: #90C7E3;
+}
+section {
+       padding-left: .5em;
+       padding-right: .5em;
+       width: 33%;
+       float: left; 
+}
+nav li {
+       padding-bottom: .5em;
+       padding-top: .5em;
+       padding-left: .1em;
+       padding-right: .1em;
+       width: 100%;
+       border-bottom: solid 1px;
+
+}
+#mobile {
+       display: inline;
+
+}
+#desktop {
+       display: none;
+}
+
+@media only screen and (min-width: 600px) {
+       #mobile {
+              display: none;
+       }
+       #desktop {
+              display: inline;
+
+       }
+       nav li {
+              display: inline;
+              width: auto;
+              border-bottom: none;
+              padding: .5em 1em;
+       }
+       form {
+              display: grid;
+              width: 60%;
+              gap: 1em;
+              grid-template-columns: 10em 1fr;
+
+       }
+       form input [type='submit']{
+              grid-column: 2;
+              width: 9em;
+       }
+       #reshero {
+              background-size: 100% 100%;
+              background-image: url("ocean.jpg");
+              background-repeat: no-repeat;
+       }
+}
+
+table {
+       margin: 0 auto;
+       border: solid 1px #3399CC;
+       width: 90%; 
+       border-collapse: collapse;       
+}
+
+th { 
+       padding: 5px;
+       border: solid 1px #3399CC;
+}
+
+td { 
+       padding: 5px;
+       border: solid 1px #3399CC;
+       text-align: center;
+}
+
+.text {
+       text-align: left;
+}
+tr:nth-of-type(even) {
+       background-color: #DFEDF8;
+}
+
+form { display: flex;
+         flex-direction: column;
+         padding-left: 1em;
+         width: 80%; 
+}
+
+textarea, input {
+       margin-bottom: .5em;
+}
+
+#reshero {
+       background-image: url("ocean.jpg");
+       background-size: 200% 100%;
+       background-repeat: no-repeat;
+       height: 300px;
+}
+
+.shop form {
+       clear: right;
+
+}
+
