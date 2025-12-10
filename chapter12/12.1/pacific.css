@@ -125,6 +125,7 @@ footer {
        font-style: italic;
        font-size: .75em;
        text-align: center;
+       clear: both;
 }
 nav ul {
        list-style-type: none;
@@ -249,4 +250,4 @@ textarea, input {
        clear: right;
 
 }
-       
+
